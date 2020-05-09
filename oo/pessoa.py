@@ -18,3 +18,9 @@ if __name__ == '__main__':
     print(luciano.idade)
     for filho in luciano.filhos:
         print(filho.nome)
+    luciano.sobrenome = 'Ramalho'  # Atributos dinâmicos
+    print(luciano.sobrenome)
+    print(luciano.__dict__)
+    del luciano.filhos        # Atributos de instância fica presente na  __dict__
+    print(luciano.__dict__)
+    print(renzo.__dict__)
