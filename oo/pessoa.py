@@ -1,5 +1,6 @@
-# O valor será o mesmo para todos os objetos ? se sim criar no Atributos de Classe, se não deve
-# criar no Atributo de instância.
+'''O valor será o mesmo para todos os objetos ?
+  Se sim, criar no Atributos de Classe.
+  Se não, deve criar no Atributo de instância'''
 
 class Pessoa:
     olhos = 2   #  Atributo default   ou   Atributo de Classe
