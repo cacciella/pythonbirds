@@ -13,6 +13,13 @@ class Pessoa:
     def cumprimentar(self):
         return f'Olá {id(self)}'
 
+    @staticmethod   # cria um metodo independente do objeto a ser executado    (@ - decorator)
+    def metodo_estatico():
+        return 42
+
+    @classmethod      # Acessa dados da propria classe
+    def nome_e_atributo_de_classe(cls):
+        return f'{cls} - olhos {cls.olhos}'
 
 if __name__ == '__main__':
     renzo = Pessoa(nome='Renzo')
@@ -41,4 +48,5 @@ if __name__ == '__main__':
     print(luciano.olhos)
     print(renzo.olhos)
     print(id(Pessoa.olhos), id(luciano.olhos), id(renzo.olhos) )
-
+    print(Pessoa.metodo_estatico(), luciano.metodo_estatico())
+    print(Pessoa.nome_e_atributo_de_classe(), luciano.nome_e_atributo_de_classe())
