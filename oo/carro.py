@@ -20,7 +20,7 @@ Ela oferecerá o seguintes atributos:
 O   +   L
     S
 
-    Exemplo
+    Exemplo:
     >>> # Testando motor
     >>> motor = Motor()
     >>> motor.velocidade
