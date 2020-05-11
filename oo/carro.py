@@ -1,8 +1,5 @@
 # doctests.- documentar, validar e testar automaticamente o código
 
-
-
-
 """ Você deve criar uma classe carro que vai possuir dois atributos compostos por outras duas classes:
 1) Motor
 2) Direção
