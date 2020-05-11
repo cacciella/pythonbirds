@@ -2,6 +2,7 @@
   Se sim, criar no Atributos de Classe.
   Se não, deve criar no Atributo de instância'''
 
+
 class Pessoa:
     olhos = 2   #  Atributo default   ou   Atributo de Classe
 
