@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+#
 from __future__ import unicode_literals
 from unittest.case import TestCase
 from atores import Ator, DESTRUIDO, ATIVO, Obstaculo, Porco, PassaroAmarelo, PassaroVermelho
