@@ -4,7 +4,6 @@ from __future__ import unicode_literals
 from unittest.case import TestCase
 from atores import Ator, DESTRUIDO, ATIVO, Obstaculo, Porco, PassaroAmarelo, PassaroVermelho
 
-
 class AtorBaseTest(TestCase):
     def assert_ator_caracteres(self, ator, caracter_status_ativo, caracter_status_destruido):
         'Confere status e caracteres ativos e destruidos de um ator'
